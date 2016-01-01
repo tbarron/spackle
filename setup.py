@@ -17,6 +17,7 @@ with open('README.rst') as readme_file:
 
 requirements = [
     # TODO: put package requirements here
+    'docopt',
 ]
 
 test_requirements = [
