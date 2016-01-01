@@ -1,0 +1,5 @@
+*~
+*.pyc
+TODO
+.cache/
+spackle.egg-info/
