@@ -3,3 +3,4 @@
 TODO
 .cache/
 spackle.egg-info/
+pytest.ini

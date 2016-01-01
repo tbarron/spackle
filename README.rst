@@ -12,4 +12,7 @@ spack helpers
 Features
 --------
 
-* TODO
+* spackle link: Create a link like $HOME/bin/tmux -> <your spack root>/.../tmux.*/bin/tmux
+
+* spackle unlink: Remove links pointing into your spack installation
+

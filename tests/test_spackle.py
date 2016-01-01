@@ -17,7 +17,7 @@ def test_link_linkpath_wo_srcdir():
     home = os.getenv('HOME')
     assert spackle.linkpath(None, 'bar') == '{}/bin/bar'.format(home)
 
-    
+
 def test_link_payload_with_path():
     """
     spackle link git --to /usr/local/bin/tclsh
@@ -40,5 +40,3 @@ def test_link_payload_wo_path():
     tmux_dir = glob.glob('{}/tmux-*'.format(spack_path))
     exp = '{}/bin/tmux'.format(tmux_dir.pop())
     assert spackle.payload(None, 'tmux') == exp
-
-    
