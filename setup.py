@@ -12,8 +12,8 @@ except ImportError:
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read().replace('.. :changelog:', '')
+# with open('HISTORY.rst') as history_file:
+#     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
     # TODO: put package requirements here
@@ -27,7 +27,8 @@ setup(
     name='spackle',
     version=version.__version__,
     description="spack helpers",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
+    # long_description=readme + '\n\n' + history,
     author="Tom Barron",
     author_email='tusculum@gmail.com',
     url='https://github.com/tbarron/spackle',
